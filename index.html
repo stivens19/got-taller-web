@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA ULTIMA Y NOS VAMOS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="d-flex justify-content-between align-items-center px-5">
+        <div class="logo">
+          <img src="logo.png" width="100" />
+        </div>
+
+        <div>
+          <h3 class="text-white-50">GAME OF THRONES</h3>
+        </div>
+      </nav>
+
+      <div class="slider-container mt-4">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="1.png" class="d-block w-100 img-sl" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="2.jpg" class="d-block w-100 img-sl" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="3.jpg" class="d-block w-100 img-sl" alt="..." />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h3 class="text-white-50 text-center py-4">PRINCIPALES CASAS</h3>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="c11.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Casa Targaryen</h5>
+              <p class="card-text">"FUEGO Y SANGRE"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="c12.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Casa Baratheon</h5>
+              <p class="card-text">"NUESTRA ES LA FURIA"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="c13.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Casa Stark</h5>
+              <p class="card-text">"EL INVIERNO SE ACERCA"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="c14.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">Casa Lannister</h5>
+              <p class="card-text">"Oye mi rugido"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-white-50 text-center py-4">SINOPSIS DE GOT</h3>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img src="casas.jpg" class="image-desc" />
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <p class="text-white-50 p-4 text-justify sinopsis">
+            En un mundo fantástico y en un contexto medieval varias familias,
+            relativas a la nobleza, se disputan el poder para dominar el
+            territorio ficticio de Poniente (Westeros) y tomar el control de los
+            Siete Reinos desde el Trono de Hierro, lugar donde el rey ejerce el
+            poder. <br /><br />
+            Mientras tiene lugar una guerra civil para conseguir el poder,
+            detrás del Muro que divide el reino de Poniente y la zona norte, los
+            muertos amenazan con librar la batalla contra los vivos.
+            <br /><br />
+            Entretanto, Daenerys Targaryen, la hija del antiguo rey, regresa a
+            Poniente para reclamar su lugar y así vengar el deceso de sus
+            ascendientes en la guerra civil anterior.
+            <a href="" class="btn btn-primary d-block mt-4">VER MÀS</a>
+          </p>
+        </div>
+      </div>
+      <h3 class="text-white-50 text-center py-4">RESUMEN TEMPORADAS</h3>
+
+      <div class="accordion" id="accordionExample">
+        <div class="card b-none">
+          <div class="card-header cheader" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-block text-center text-white-50"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                TEMPORADA 1
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body cbody text-white-50">
+              En esta temporada los Siete Reinos están gobernados por la casa
+              Baratheon, con el rey Robert que está sentado en el Trono de
+              Hierro.
+              <br />
+              La familia Baratheon visita a los Stark en Invernalia. Allí Robert
+              le propone a su amigo Ned, padre de los Stark, que sea su mano y
+              consejero.
+              <br />
+              Durante este viaje, Bran Stark, uno de los hijos menores, descubre
+              a Cersei y Jaime Lannister, hermanos, teniendo relaciones.
+              Después, Jaime decide arrojar al niño por la ventana y lo deja
+              paralítico.
+              <br />
+              Ned acepta la propuesta de Robert y se convierte en Mano del Rey.
+              Por ello, viaja con sus hijas, Sansa y Arya, hacia Desembarco del
+              Rey. Una vez allí, Ned promete a Sansa con Joffrey, hijo del rey
+              Robert.
+              <br />
+              Asimismo, Jon Snow, el hijo bastardo de Ned, decide alistarse en
+              la Guardia de la Noche y se dirige al Muro.
+              <br />
+              Por su parte, Vyserys Targaryen, hijo del rey loco, entrega a su
+              hermana Daenerys al líder de la tribu Dothraki. Aunque este acto
+              termina por costarle la vida. Después, Daenerys queda viuda y
+              pierde a su bebé pero, a cambio, se convierte en la madre de tres
+              dragones.
+              <br />
+              Al final de la temporada, el rey Robert muere y los Lannister
+              acusan a Ned como el único culpable. Joffrey pasa a ser el rey y
+              manda ejecutar a Ned Stark.
+            </div>
+          </div>
+        </div>
+        <div class="card b-none">
+          <div class="card-header cheader" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-block text-center text-white-50"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapse2"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                TEMPORADA 2
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapse2"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body cbody text-white-50">
+              En esta temporada los hermanos Renly y Stannis Baratheon luchan
+              por conseguir el trono tras la muerte de su hermano Robert.
+              <br />
+              Robb Stark declara la guerra a la familia Lannister y, con el
+              apoyo de su madre, se proclama “Rey en el Norte”. También captura
+              a Jaime Lannister como venganza.
+              <br />
+              En Desembarco del Rey, Joffrey somete a Sansa a diferentes
+              torturas mientras que su hermana pequeña, Arya, logra huir de la
+              ciudad gracias a Gendry, el hijo bastardo del rey Robert. En su
+              aventura, la joven Stark conoce a Jaqen H´ghar, un hombre que le
+              habla de los hombres sin rostro.
+              <br />
+              Por su parte, Daenerys viaja con su consejero y sus dragones hacia
+              la ciudad de Qarth.
+              <br />
+              En Invernalia, Theon Greyjoy traiciona a los Stark y ordena matar
+              a Robb y Rickon, los hijos menores del matrimonio, pero no lo
+              consigue.
+              <br />
+              Finalmente, tiene lugar la “Batalla de Aguasnegras”, donde Stannis
+              ataca la ciudad de Desembarco del Rey, aunque Tyrion logra
+              derrotar a su ejército.
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+        <p class="text-white-50 py-3 mt-2 d-flex justify-content-center align-items-center bt-solid text-center">Todos Los derechos reservados &copy; Stivens Epinoza - Desarrollador Web Fullstack</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
